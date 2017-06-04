@@ -7,7 +7,8 @@ Modernizr.addTest('iphone-safari', function () {
 	}
 });
 
-  $(document).ready(function(){
+(function($) {
+	$(document).ready(function(){
 	// hide .navbar first
 	$(".navbar").hide();
 	
@@ -26,6 +27,7 @@ Modernizr.addTest('iphone-safari', function () {
 	});
 
 });
+})(jQuery);
 
 function debounce(func, wait, immediate) {
 // utility to trigger events after set time (used on scroll principally)
