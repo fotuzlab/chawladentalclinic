@@ -1031,7 +1031,7 @@ input.text:focus {
 /* home hero specific pages */
 
 .hero-home {
-	background-image: url("../img/bg-default.jpg");
+	background-image: url("../img/doctors.jpg");
 	background-color: #523129;
 	min-height: 400px;
 }
@@ -2882,6 +2882,14 @@ nav.navbar.navbar-default.navbar-fixed-top {
 	    color: #000;
 	    text-align: center;
 	    width: 50%;
+	}
+}
+
+@media (max-width: 767px) {
+	.mobile-trans {
+	    background: #000;
+	    opacity: 0.5;
+	    padding: 10px;
 	}
 }
 
